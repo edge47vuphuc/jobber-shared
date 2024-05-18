@@ -19,7 +19,7 @@
   "author": "edge47vuphuc",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/edge47vuphuc/jobber-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -38,9 +38,11 @@
     "@babel/cli": "^7.24.5",
     "@babel/preset-env": "^7.24.5",
     "@babel/preset-typescript": "^7.24.1",
+    "@elastic/elasticsearch": "^8.13.1",
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.6",
     "express": "^4.19.2",
+    "mongoose": "^8.4.0",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
