@@ -70,3 +70,4 @@ export {
   ISellerDocument,
   SellerType,
 } from './seller.interface';
+export { uploads, videoUpload } from './cloudinary-upload';
