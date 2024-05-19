@@ -71,3 +71,14 @@ export {
   SellerType,
 } from './seller.interface';
 export { uploads, videoUpload } from './cloudinary-upload';
+export {
+  BadRequestError,
+  CustomError,
+  ErrnoException,
+  FileTooLargeError,
+  IError,
+  IErrorResponse,
+  NotAuthorizedError,
+  NotFoundError,
+  ServerError,
+} from './error-handler';
